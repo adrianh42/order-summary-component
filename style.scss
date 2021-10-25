@@ -89,7 +89,7 @@ img {
   display: block;
 }
 
-#panel {
+.panel {
   overflow: hidden;
   display: flex;
   border-radius: 24px;
@@ -105,11 +105,11 @@ a {
   color: #3829e0;
 }
 
-#hero {
+.hero {
   flex-grow: 1;
 }
 
-#content {
+.content {
   flex-grow: 1;
   display: flex;
   flex-direction: column;
@@ -130,7 +130,7 @@ summary {
   }
 }
 
-#plan-panel {
+.plan-panel {
   display: flex;
   width: 80%;
   max-width: 320px;
@@ -139,22 +139,23 @@ summary {
   img {
     margin-right: 1.2rem;
   }
-  #plan {
+  .plan {
     flex-grow: 1;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
   }
-  #change {
-    font-size: 0.9rem;
-    color: $brightblue;
-    padding: 0 0;
-    margin-left: 1.2rem;
-    text-decoration: underline;
-  }
 }
 
-#proceed {
+.change {
+  font-size: 0.9rem;
+  color: $brightblue;
+  padding: 0 0;
+  margin-left: 1.2rem;
+  text-decoration: underline;
+}
+
+.proceed {
   color: $vpaleblue;
   max-width: 360px;
   border-radius: 12px;
@@ -164,7 +165,7 @@ summary {
   box-shadow: 0px 12px 24px rgba(114, 128, 167, 0.4);
 }
 
-#cancel {
+.cancel {
   color: $desablue;
   padding: 0;
   margin: 6%;
@@ -175,22 +176,22 @@ a:hover {
   cursor: pointer;
 }
 
-#change:hover {
+.change:hover {
   color: $desablue;
   cursor: pointer;
 }
 
-#proceed:hover {
+.proceed:hover {
   background: $desablue;
   cursor: pointer;
 }
 
-#cancel:hover {
+.cancel:hover {
   color: $darkblue;
   cursor: pointer;
 }
 
-#attribution {
+.attribution {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;

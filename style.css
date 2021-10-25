@@ -92,7 +92,7 @@ img {
   display: block;
 }
 
-#panel {
+.panel {
   overflow: hidden;
   display: -webkit-box;
   display: -ms-flexbox;
@@ -114,13 +114,13 @@ a {
   color: #3829e0;
 }
 
-#hero {
+.hero {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
 }
 
-#content {
+.content {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -154,7 +154,7 @@ summary p {
   line-height: 1.6rem;
 }
 
-#plan-panel {
+.plan-panel {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -166,11 +166,11 @@ summary p {
   margin: 12% 15%;
 }
 
-#plan-panel img {
+.plan-panel img {
   margin-right: 1.2rem;
 }
 
-#plan-panel #plan {
+.plan-panel .plan {
   -webkit-box-flex: 1;
       -ms-flex-positive: 1;
           flex-grow: 1;
@@ -186,7 +186,7 @@ summary p {
           justify-content: space-evenly;
 }
 
-#plan-panel #change {
+.change {
   font-size: 0.9rem;
   color: #3829e0;
   padding: 0 0;
@@ -194,7 +194,7 @@ summary p {
   text-decoration: underline;
 }
 
-#proceed {
+.proceed {
   color: #f5f7ff;
   max-width: 360px;
   border-radius: 12px;
@@ -205,7 +205,7 @@ summary p {
           box-shadow: 0px 12px 24px rgba(114, 128, 167, 0.4);
 }
 
-#cancel {
+.cancel {
   color: #7280a7;
   padding: 0;
   margin: 6%;
@@ -216,22 +216,22 @@ a:hover {
   cursor: pointer;
 }
 
-#change:hover {
+.change:hover {
   color: #7280a7;
   cursor: pointer;
 }
 
-#proceed:hover {
+.proceed:hover {
   background: #7280a7;
   cursor: pointer;
 }
 
-#cancel:hover {
+.cancel:hover {
   color: #1f2f56;
   cursor: pointer;
 }
 
-#attribution {
+.attribution {
   display: -webkit-box;
   display: -ms-flexbox;
   display: flex;
@@ -245,7 +245,7 @@ a:hover {
   margin: 0.7rem;
 }
 
-#attribution p {
+.attribution p {
   margin: auto 2pt;
 }
 
