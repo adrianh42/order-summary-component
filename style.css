@@ -1,0 +1,259 @@
+/*** The new CSS Reset - version 1.2.0 (last updated 23.7.2021) ***/
+/* Remove all the styles of the "User-Agent-Stylesheet", except for the 'display' property */
+*:where(:not(iframe, canvas, img, svg, video):not(svg *)) {
+  all: unset;
+  display: revert;
+}
+
+/* Preferred box-sizing value */
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+/*
+  Remove list styles (bullets/numbers)
+  in case you use it with normalize.css
+*/
+ol,
+ul {
+  list-style: none;
+}
+
+/* For images to not be able to exceed their container */
+img {
+  max-width: 100%;
+}
+
+/* Removes spacing between cells in tables */
+table {
+  border-collapse: collapse;
+}
+
+/* Revert the 'white-space' property for textarea elements on Safari */
+textarea {
+  white-space: revert;
+}
+
+html {
+  font-family: "Red Hat Display", sans-serif;
+  font-size: 16px;
+}
+
+body {
+  background: url(images/pattern-background-mobile.svg) #e0e8ff;
+  background-repeat: no-repeat;
+  background-size: contain;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  min-height: 100vh;
+  padding: 1vh 0;
+}
+
+h1 {
+  color: #1f2f56;
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+h3 {
+  color: #1f2f56;
+  font-weight: 900;
+}
+
+p {
+  color: #7280a7;
+}
+
+button {
+  font-weight: 700;
+  text-align: center;
+  padding: 1rem 2rem;
+}
+
+header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+img {
+  height: 100%;
+  display: block;
+}
+
+.panel {
+  overflow: hidden;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  border-radius: 24px;
+  width: 88%;
+  max-width: 480px;
+  margin: auto;
+  background: #f5f7ff;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-shadow: 0px 16px 32px rgba(114, 128, 167, 0.32);
+          box-shadow: 0px 16px 32px rgba(114, 128, 167, 0.32);
+}
+
+a {
+  color: #3829e0;
+}
+
+.hero {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+}
+
+.content {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  padding: 2% 0;
+}
+
+summary {
+  text-align: center;
+  max-width: 400px;
+}
+
+summary h1 {
+  margin: 8% auto 5%;
+}
+
+summary p {
+  margin: auto 10%;
+  line-height: 1.6rem;
+}
+
+.plan-panel {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: 80%;
+  max-width: 320px;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  margin: 12% 15%;
+}
+
+.plan-panel img {
+  margin-right: 1.2rem;
+}
+
+.plan-panel .plan {
+  -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+          flex-grow: 1;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+}
+
+.change {
+  font-size: 0.9rem;
+  color: #3829e0;
+  padding: 0 0;
+  margin-left: 1.2rem;
+  text-decoration: underline;
+}
+
+.proceed {
+  color: #f5f7ff;
+  max-width: 360px;
+  border-radius: 12px;
+  background-color: #3829e0;
+  text-align: center;
+  width: 88%;
+  -webkit-box-shadow: 0px 12px 24px rgba(114, 128, 167, 0.4);
+          box-shadow: 0px 12px 24px rgba(114, 128, 167, 0.4);
+}
+
+.cancel {
+  color: #7280a7;
+  padding: 0;
+  margin: 6%;
+}
+
+a:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.change:hover {
+  color: #7280a7;
+  cursor: pointer;
+}
+
+.proceed:hover {
+  background: #7280a7;
+  cursor: pointer;
+}
+
+.cancel:hover {
+  color: #1f2f56;
+  cursor: pointer;
+}
+
+.attribution {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 1rem;
+  text-align: center;
+  margin: 0.7rem;
+}
+
+.attribution p {
+  margin: auto 2pt;
+}
+
+@media (min-width: 400px) {
+  body {
+    background: url(images/pattern-background-desktop.svg) #e0e8ff;
+    background-repeat: no-repeat;
+    background-size: contain;
+  }
+}
+/*# sourceMappingURL=style.css.map */
