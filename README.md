@@ -40,8 +40,6 @@ Users should be able to:
 I wrote down the semantics of the html first, then classes and all that.
 Next I did the CSS styling with SCSS, using a simple anb short CSS-reset I found on css-tricks.
 
-I did the github repo part last because I didn't really know how to use it, but now I do.
-
 ### Built with
 
 - Semantic HTML5
@@ -51,35 +49,7 @@ I did the github repo part last because I didn't really know how to use it, but 
 
 ### What I learned
 
-I'm not sure if I can be particularly proud about writing CSS, it's just styling code afterall but this plan-panel took a little bit of my time.
-
-```css
-.plan-panel {
-  display: flex;
-  width: 80%;
-  max-width: 320px;
-  justify-content: space-between;
-  margin: 12% 15%;
-  img {
-    margin-right: 1.2rem;
-  }
-  .plan {
-    flex-grow: 1;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-  }
-  .change {
-    font-size: 0.9rem;
-    color: $brightblue;
-    padding: 0 0;
-    margin-left: 1.2rem;
-    text-decoration: underline;
-  }
-}
-```
-
-Also learned GitHub the hard way, I think it took me 25% of my time just figuring out why the hell GitHub doesn't show my markdown or my html file correctly; turns out GitHub is case-sensitive. I guess it is a best-practice, lesson learned.
+Found out that GitHub is case-sensitive, took me a lot of figuring out to display this markdown and the html correctly. I guess it is a best-practice, lesson learned.
 
 ### Continued development
 
