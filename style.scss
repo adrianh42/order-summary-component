@@ -145,14 +145,13 @@ summary {
     flex-direction: column;
     justify-content: space-evenly;
   }
-}
-
-.change {
-  font-size: 0.9rem;
-  color: $brightblue;
-  padding: 0 0;
-  margin-left: 1.2rem;
-  text-decoration: underline;
+  .change {
+    font-size: 0.9rem;
+    color: $brightblue;
+    padding: 0 0;
+    margin-left: 1.2rem;
+    text-decoration: underline;
+  }
 }
 
 .proceed {
