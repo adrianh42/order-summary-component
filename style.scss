@@ -51,7 +51,7 @@ html {
 body {
   background: url(images/pattern-background-mobile.svg) $paleblue;
   background-repeat: no-repeat;
-  background-size: contain;
+  background-size: 100% 50vh;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -65,7 +65,7 @@ h1 {
   font-size: 1.5rem;
 }
 
-h3 {
+h2 {
   color: $darkblue;
   font-weight: 900;
 }
@@ -206,6 +206,7 @@ a:hover {
   body {
     background: url(images/pattern-background-desktop.svg) $paleblue;
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: 100% 50vh;
+    // background-position: top;
   }
 }
