@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [GitHub](https://github.com/westbrookad/order-summary-component)
-- Live Site URL: [GitHub Page](https://westbrookad.github.io/order-summary-component/)
+- Solution URL: [GitHub](https://github.com/adrianh42/order-summary-component)
+- Live Site URL: [GitHub Page](https://adrianh42.github.io/order-summary-component/)
 
 ## My process
 
@@ -61,7 +61,7 @@ I'm still new to flexbox concepts and I only found out about CSS grid not long a
 
 ## Author
 
-- Frontend Mentor - [@westbrookad](https://www.frontendmentor.io/profile/westbrookad)
+- Frontend Mentor - [@westbrookad](https://www.frontendmentor.io/profile/adrianh42)
 
 ## Acknowledgments
 
